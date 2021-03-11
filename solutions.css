@@ -108,3 +108,20 @@
 }
 
 /* /ESERCIZIO 9 */
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+  animation: spin-icon 1s infinite linear;
+}
+
+@keyframes spin-icon {
+  from {
+    transform: rotate (0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* /ESERCIZIO 10 */
