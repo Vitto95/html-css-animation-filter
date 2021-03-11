@@ -148,3 +148,39 @@
 }
 
 /* /ESERCIZIO 11 */
+
+/* ESERCIZIO 12 */
+
+a.ex-12-button:hover .ex-12-top-white {
+  animation: left-and-right 2s infinite linear;
+}
+
+@keyframes left-and-right {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 69%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+
+a.ex-12-button:hover .ex-12-bottom-white {
+  animation: right-and-left 2s infinite linear;
+}
+
+@keyframes right-and-left {
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 69%;
+  }
+  100% {
+    right: 10%;
+  }
+}
+
+/* /ESERCIZIO 12 */
