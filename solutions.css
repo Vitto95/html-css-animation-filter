@@ -69,3 +69,15 @@
 }
 
 /* /ESERCIZIO 6 */
+
+/* ESERCIZIO 7 */
+
+.ex-7-img {
+  transition: filter 1.2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(80%);
+}
+
+/* /ESERCIZIO 7 */
