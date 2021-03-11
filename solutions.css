@@ -184,3 +184,30 @@ a.ex-12-button:hover .ex-12-bottom-white {
 }
 
 /* /ESERCIZIO 12 */
+
+/* ESERCIZIO 13 */
+a.ex-13-button:hover .ex-13-top-white {
+  animation: top-complete 2s infinite linear;
+}
+
+@keyframes top-complete {
+  25% {
+    left: 85%;
+    top: -10px;
+  }
+  50% {
+    left: 85%;
+    top: 100%;
+  }
+  75% {
+    left: -15%;
+    top: 100%;
+  }
+
+  90% {
+    left: -15%;
+    top: -10px;
+  }
+}
+
+/* /ESERCIZIO 13 */
