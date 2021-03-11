@@ -81,3 +81,30 @@
 }
 
 /* /ESERCIZIO 7 */
+
+/* ESERCIZIO 8 */
+
+.ex-8-img {
+  transition: all 2s;
+}
+
+.ex-8-img:hover {
+  border-radius: 20px;
+  filter: grayscale(75%);
+}
+
+/* /ESERCIZIO 8 */
+
+/* ESERCIZIO 9 */
+
+.ex-9-img {
+  transition: all 2s;
+}
+
+.ex-9-img:hover {
+  transform: scale(1.5);
+  filter: grayscale(50%);
+  border-radius: 20px;
+}
+
+/* /ESERCIZIO 9 */
